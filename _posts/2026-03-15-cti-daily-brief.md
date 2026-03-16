@@ -10,12 +10,6 @@ reporting_period: "2026-03-15"
 generated: "2026-03-16"
 draft: true
 report_count: 1
-severity:
-  critical: 0
-  high: 0
-  medium: 0
-  low: 0
-  info: 1
 sources:
   - BleepingComputer
 ---
