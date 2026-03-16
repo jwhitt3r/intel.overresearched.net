@@ -20,11 +20,7 @@ sources:
   - Unit42
   - CISA
   - Wired Security
-severity:
-  critical: 5
-  high: 12
-  medium: 11
-  low: 1
+
 ---
 
 | Reporting Period | Classification | Generated |
