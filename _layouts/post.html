@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<article class="h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+ <header class="post-header">
+    <div class="post-header__meta">
+      <time class="post-card__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+      <span class="category-badge category-badge--{{ page.category | default: 'daily' }}">
+        {{ page.category | default: "daily" }}
+      </span>
+      {% if page.severity %}
+        <span class="severity-badge severity-badge--{{ page.severity }}">
+          {{ page.severity }}
+        </span>
+      {% endif %}
+    </div>
+    {% if page.tags.size > 0 %}
+      <div class="post-tags">
+        {% for tag in page.tags %}
+          <a class="post-tag" href="{{ '/search/?q=' | append: tag | relative_url }}">{{ tag }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+    <h1 class="post-header__title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    {% if page.description %}
+      <p class="post-header__description p-summary" itemprop="description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    {% if page.sources %}
+      <p><strong>Sources:</strong> {{ page.sources | join: ", " }}</p>
+    {% endif %}
+    {% if page.reports_processed %}
+      <p>{{ page.reports_processed }} reports processed
+        {% if page.correlation_batches %} across {{ page.correlation_batches }} correlation batches{% endif %}.</p>
+    {% endif %}
+    <p>
+      <a href="{{ '/' | relative_url }}">← Back to all intelligence</a>
+    </p>
+  </footer>
+</article>

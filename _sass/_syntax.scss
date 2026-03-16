@@ -1,0 +1,55 @@
+// ============================================================================
+// CognitiveCTI — Syntax Highlighting (Rouge)
+// ============================================================================
+
+.highlight {
+  background: var(--bg-code);
+  border: 1px solid var(--border);
+  border-radius: $radius;
+  padding: $space-lg;
+  margin-bottom: $space-lg;
+  overflow-x: auto;
+
+  pre {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  // Light theme tokens
+  .c, .cd, .cm, .c1, .cs { color: #6a737d; font-style: italic; } // Comments
+  .k, .kd, .kn, .kp, .kr, .kt { color: #d73a49; }               // Keywords
+  .s, .sb, .sc, .sd, .s2, .sh, .si, .sx, .s1 { color: #032f62; } // Strings
+  .na { color: #005cc5; }                                          // Attribute
+  .nb { color: #005cc5; }                                          // Builtin
+  .nc { color: #6f42c1; }                                          // Class
+  .nf, .fm { color: #6f42c1; }                                    // Function
+  .ni { color: #735c0f; }
+  .nn { color: #005cc5; }                                          // Namespace
+  .nt { color: #22863a; }                                          // Tag
+  .nv, .vi, .vc, .vg { color: #e36209; }                          // Variable
+  .o, .ow { color: #d73a49; }                                     // Operator
+  .m, .mf, .mh, .mi, .mo, .il { color: #005cc5; }                // Number
+  .p { color: var(--text); }
+  .err { color: #d73a49; }
+}
+
+// Dark theme overrides
+[data-theme="dark"] .highlight {
+  .c, .cd, .cm, .c1, .cs { color: #8b949e; }
+  .k, .kd, .kn, .kp, .kr, .kt { color: #ff7b72; }
+  .s, .sb, .sc, .sd, .s2, .sh, .si, .sx, .s1 { color: #a5d6ff; }
+  .na { color: #79c0ff; }
+  .nb { color: #79c0ff; }
+  .nc { color: #d2a8ff; }
+  .nf, .fm { color: #d2a8ff; }
+  .ni { color: #e3b341; }
+  .nn { color: #79c0ff; }
+  .nt { color: #7ee787; }
+  .nv, .vi, .vc, .vg { color: #ffa657; }
+  .o, .ow { color: #ff7b72; }
+  .m, .mf, .mh, .mi, .mo, .il { color: #79c0ff; }
+  .p { color: var(--text); }
+  .err { color: #ff7b72; }
+}
