@@ -8,7 +8,7 @@ tags: [cti, daily-brief, open-source, breachforums]
 classification: TLP:CLEAR
 reporting_period: "2026-03-15"
 generated: "2026-03-16"
-draft: true
+draft: false
 report_count: 1
 sources:
   - BleepingComputer
