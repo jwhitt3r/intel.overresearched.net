@@ -10,6 +10,7 @@ reporting_period: "2026-03-15"
 generated: "2026-03-16"
 draft: false
 report_count: 1
+severity: "info"
 sources:
   - BleepingComputer
 ---

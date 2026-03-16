@@ -10,6 +10,7 @@ reporting_period: "2026-03-15"
 generated: "2026-03-16"
 draft: true
 report_count: 35
+severity: "critical"
 sources:
   - AlienVault
   - BleepingComputer
