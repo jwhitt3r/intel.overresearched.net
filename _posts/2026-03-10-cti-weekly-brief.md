@@ -9,13 +9,9 @@ classification: TLP:CLEAR
 reporting_period_start: "2026-03-10"
 reporting_period_end: "2026-03-16"
 generated: "2026-03-17"
-draft: true
+draft: false
+severity: "critical"
 report_count: 325
-severity:
-  critical: 80
-  high: 68
-  medium: 145
-  low: 12
 sources:
   - Microsoft
   - BleepingComputer
