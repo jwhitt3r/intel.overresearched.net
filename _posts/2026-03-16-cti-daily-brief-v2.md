@@ -8,7 +8,7 @@ tags: [cti, daily-brief, cve-2026-3909, boggy-serpens, laundry-bear, leaknet, sl
 classification: TLP:CLEAR
 reporting_period: "2026-03-16"
 generated: "2026-03-17"
-draft: true
+draft: false
 report_count: 52
 sources:
   - Microsoft
@@ -21,12 +21,6 @@ sources:
   - Elastic Security Labs
   - Sentinel One
   - Wired Security
-severity:
-  critical: 12
-  high: 12
-  medium: 17
-  low: 4
-  info: 7
 ---
 
 | Reporting Period | Classification | Generated |
