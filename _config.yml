@@ -87,7 +87,7 @@ exclude:
 
 # Security: strip unnecessary metadata
 safe: false
-future: false
+future: true 
 show_drafts: false
 
 # Navigation categories for filtering
