@@ -57,7 +57,7 @@ CVE-2026-5890 is a critical race condition in Chromium's WebCodecs media-decode 
 
 ### 3.3 The Gentlemen ransomware surge — healthcare, biotech, retail and utilities hit
 
-**Source:** [RansomLock leak-site monitor](https://ransomlock.com)
+**Source:** [RansomLook leak-site aggregator](https://www.ransomlook.io)
 
 The 19:00 UTC correlation batch flagged a coordinated wave of leak-site postings attributed to *The Gentlemen* ransomware group with 0.90 confidence. Named victims published today include Harlem Stage, BRC Biotechnology, NSOFT, International Maritime Hospital, Brand Collective, Double C Farm, Cleor and BRC Biotechnology — spanning healthcare, biotechnology, retail and utilities. A parallel activity cluster from *Nightspire* added Sahara Air Products, and *exitium* posted Gastroenterology & Hepatology of CNY. Correlation indicates T1566 (Phishing) as the recurring initial-access TTP across the cluster. Attribution is based on leak-site self-claim only; the pipeline does not include forensic confirmation, so treat group labels as claimed rather than verified.
 
@@ -65,7 +65,7 @@ The 19:00 UTC correlation batch flagged a coordinated wave of leak-site postings
 
 ### 3.4 ShinyHunters leak-site wave — Rockstar Games, Mytheresa, Amtrak, McGraw Hill, Kemper
 
-**Source:** [RansomLock leak-site monitor](https://ransomlock.com)
+**Source:** [RansomLook leak-site aggregator](https://www.ransomlook.io)
 
 The earlier 06:54 UTC correlation batch captured a second large wave of leak-site postings attributed to *ShinyHunters*, naming Rockstar Games, Mytheresa, Abrigo Inc., Marcus & Millichap, Kemper Corporation, Ryan LLC, McGraw Hill (mheducation.com) and the National Railroad Passenger Corporation (Amtrak). The trend engine flagged phishing and exploitation of application-layer protocols (T1071.001) as the shared TTPs, with RansomLock used consistently across the cluster. The scale, sector diversity, and simultaneous posting suggest a single coordinated disclosure event rather than organic growth. No victim confirmations or ransom-note IOCs are available in the pipeline; attribution is leak-site claim only.
 
@@ -119,7 +119,7 @@ Vulnerability-entity rollups this period are dominated by the Microsoft Go/Chrom
 | Source | Reports | URL | Notes |
 |--------|---------|-----|-------|
 | Microsoft (MSRC) | 91 | [msrc.microsoft.com](https://msrc.microsoft.com/update-guide) | Dominant source; carried all four critical CVEs and the Chromium batch |
-| RansomLock | 23 | [ransomlock.com](https://ransomlock.com) | Leak-site monitor; source for all ransomware victim postings |
+| RansomLook | 23 | [ransomlook.io](https://www.ransomlook.io) | Leak-site aggregator; source for all ransomware victim postings |
 | Unknown | 5 | — | Unattributed feed items |
 | Wired Security | 2 | [wired.com/category/security](https://www.wired.com/category/security) | Long-form security reporting |
 | BleepingComputer | 2 | [bleepingcomputer.com](https://www.bleepingcomputer.com) | Breaking news and malware coverage |
